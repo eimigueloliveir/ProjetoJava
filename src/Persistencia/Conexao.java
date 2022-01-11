@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class Conexao {
      public Connection getConnection() {
 		 try {
-			return DriverManager.getConnection("jdbc:mysql://localhost/db_loja","root","1313");
+			return DriverManager.getConnection("jdbc:mysql://localhost/projetojava","root","1313");
 		 }         
 		 catch(SQLException excecao) {
 			throw new RuntimeException(excecao);

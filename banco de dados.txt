@@ -1,0 +1,19 @@
+create database projetojava;
+use projetojava;
+
+
+
+CREATE TABLE pessoas (
+pes_id INT(10) AUTO_INCREMENT,
+pes_nome VARCHAR(255),
+pes_rg VARCHAR(255),
+pes_cpf VARCHAR(255),
+pes_tel VARCHAR(255),
+pes_end VARCHAR(255),
+pes_status VARCHAR(255),
+PRIMARY KEY (pes_id)
+);
+
+drop table pessoas;
+
+select * from pessoas;
